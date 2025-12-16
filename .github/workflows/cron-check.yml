@@ -11,4 +11,4 @@ jobs:
     steps:
       - name: Call Vercel cron endpoint
         run: |
-          curl -fsS "https://YOUR_APP.vercel.app/api/cron/check?secret=${{ secrets.CRON_SECRET }}"
+          curl -fsS "https://node-web-monitor.vercel.app/api/cron/check?secret=${{ secrets.CRON_SECRET }}"
