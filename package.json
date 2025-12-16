@@ -1,0 +1,12 @@
+{
+  "name": "web-monitor",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.10.0",
+    "axios": "^1.7.9"
+  }
+}
